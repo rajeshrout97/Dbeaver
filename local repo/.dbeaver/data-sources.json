@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"snowflake_jdbc-17e47c86e12-df8ece8f6a982f6": {
+			"provider": "snowflake",
+			"driver": "snowflake_jdbc",
+			"name": "miniproject",
+			"save-password": false,
+			"read-only": false,
+			"configuration": {
+				"host": "aq75469.ap-south-1.aws.snowflakecomputing.com",
+				"port": "443",
+				"database": "miniproject",
+				"url": "jdbc:snowflake://aq75469.ap-south-1.aws.snowflakecomputing.com:443/?db=miniproject",
+				"type": "dev",
+				"provider-properties": {},
+				"handlers": {}
+			},
+			"custom-properties": {
+				"ddString": "false"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
